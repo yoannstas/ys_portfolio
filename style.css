@@ -62,7 +62,7 @@ nav.navbar.navbar-custom {
 }
 
 .pTitle {
-    color: #ae8188;
+    color: #c69287;
     font-family: circu;
     font-size: 14px;
     text-decoration-line: underline;
@@ -76,7 +76,7 @@ nav.navbar.navbar-custom {
 }
 
 .h1Brown {
-    color: #ae8188;
+    color: #c69287;
     font-family: mohr;
     font-size: 380%;
     letter-spacing: 2px;
@@ -108,7 +108,7 @@ img.line {
 }
 
 hr {
-    border-top: 1px solid #ae8188;
+    border-top: 1px solid #c69287;
     width: 100%;
     background-color: #000B91;
     opacity: 100%;
@@ -128,26 +128,15 @@ div.card {
 }
 
 /* keyframes */
-.spinning {
-    margin-right: 20px;
-    animation-name: spinner;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-duration: 7s;
-    transform-style: preserve-3d;
-    text-align: center;
-}
 
-@keyframes spinner {
-    from {
-        transform: rotateY(0deg);
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
     }
-    to {
-        transform: rotateY(-360deg);
+    100% {
+        transform: translateX(calc(-250px * 7));
     }
 }
-
-/* slider */
 .slider {
     height: 100px;
     margin: auto;
@@ -193,16 +182,19 @@ div.card {
     font-size: 30px;
     letter-spacing: 3px;
     transform: rotate(20deg) ;
-    color: #ffffff;
+    color: blanchedalmond;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #00D9E;
 }
 
 .loop:hover{
-    color: #FF4141;
+    color: #c69287;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #00D9E;
 }
+
+
+
 
 .email {
     display: block;
