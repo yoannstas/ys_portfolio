@@ -1,0 +1,211 @@
+/* containers */
+
+body {
+    background-color: #000B91;
+}
+
+nav.navbar.navbar-custom {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.intro {
+    width: 100vw;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.facts {
+    width: 100vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.myWork {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url("assets/w5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+.ido {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.clients {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.contact {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+
+/* typography */
+@font-face {
+    font-family: "circu";
+    src: url("assets/CircularStd-Black.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "mohr";
+    src: url("assets/MohrRoundedAlt-SemiBold.woff2") format("woff2");
+}
+
+.pLight {
+    color: blanchedalmond;
+    font-family: circu;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase !important;
+}
+
+.pTitle {
+    color: #ae8188;
+    font-family: circu;
+    font-size: 14px;
+    text-decoration-line: underline;
+    letter-spacing: 3px;
+    text-transform: uppercase !important;
+}
+.h1Light {
+    color: blanchedalmond;
+    font-family: mohr;
+    letter-spacing: 5px;
+}
+
+.h1Brown {
+    color: #ae8188;
+    font-family: mohr;
+    font-size: 380%;
+    letter-spacing: 2px;
+}
+
+h5 {
+    font-family: circu;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-transform: uppercase !important;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+/* assets */
+
+img.line {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    border-top: 1px solid #ae8188;
+    width: 100%;
+    background-color: #000B91;
+    opacity: 100%;
+
+}
+
+div.card {
+    color: blanchedalmond;
+    text-align: center;
+    background-color: #000B91;
+    border: 0;
+}
+
+.card-title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* keyframes */
+.spinning {
+    margin-right: 20px;
+    animation-name: spinner;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    transform-style: preserve-3d;
+    text-align: center;
+}
+
+@keyframes spinner {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(-360deg);
+    }
+}
+
+/* slider */
+.slider {
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.slider::before, .slider::after {
+    background: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
+    content: "";
+    height: 170px;
+    position: absolute;
+    width: 0px;
+    z-index: 2;
+}
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+.slider::before {
+    left: 0;
+    top: 0;
+}
+.slider .slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+.slider .slide {
+    height: 250px;
+    width: 250px;
+}
+
+.brands {
+    width: 200%;
+}
+/*# sourceMappingURL=output.css.map */
+
+.loop {
+    margin-top: 20px;
+    font-family: mohr;
+    font-size: 30px;
+    letter-spacing: 3px;
+    transform: rotate(20deg) ;
+    color: #ffffff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #00D9E;
+}
+
+.loop:hover{
+    color: #FF4141;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #00D9E;
+}
+
+.email {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
