@@ -2,6 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="421ed569-6682-4540-9458-07b7be3637c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HBM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mediabikers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metro3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/muytersp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/people.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salesforce.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wunderground.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -49,6 +60,11 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yoann\WebstormProjects\portfolio" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +75,8 @@
       <updated>1609589042997</updated>
       <workItem from="1609589044162" duration="1338000" />
       <workItem from="1609592426789" duration="34957000" />
-      <workItem from="1609677158277" duration="2461000" />
+      <workItem from="1609677158277" duration="4296000" />
+      <workItem from="1609691532231" duration="15701000" />
     </task>
     <servers />
   </component>
@@ -76,5 +93,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
