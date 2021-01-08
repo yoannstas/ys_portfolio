@@ -190,9 +190,14 @@ div.card {
     border: 0;
 }
 
+div.card-body {
+    margin-top: 0;
+}
+
+
 .card-title {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /* keyframes */
